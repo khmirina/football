@@ -1,0 +1,122 @@
+body {
+    font-family: "Arial";
+    background-color: #8dc63f;
+}
+
+/* Global classes */
+
+.wrapper {
+    margin: auto;
+    padding: 0 15px;
+    max-width: 960px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/* Index */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center
+}
+
+.logo p {
+    margin: 0;
+    font-size: 22px;
+    color: #39930d;
+}
+
+.logo strong {
+    display: block;
+    font-size: 44px;
+}
+
+.logo em {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-style: italic;
+}
+
+.logo img {
+    margin: 0 35px;
+}
+
+.contacts p {
+    margin: 0px;
+    font-size: 22px;
+    color: #39930d;
+    text-align: right;
+}
+
+.contacts i {
+    display: block;
+    padding-top: 8px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.img {
+    padding: 0px 0px;
+    width: 100%;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+    padding-bottom: 45px;
+}
+.scope h1 {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.partners {
+    min-width: 300px;   
+}
+
+.partners p {
+    padding: 12px 20px;
+    background-color: #39930d;
+    color: #fff;
+}
+
+.partners ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.partners li {
+  margin-bottom: 10px;
+}
+
+.partners a {
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: uppercase;  
+    color: #39930d;   
+}
+
+.partners a:hover {
+    font-family: cursor-font; 
+    color: #5a5a5a; 
+    cursor: url('../img/heart.cur'), auto; 
+}
+
+.copyright {
+    margin: 0 -15px;
+    padding: 14px 15px;
+    font-size: 14px;
+    background-color: #39930d;
+    color: #fff;
+}
+
+.copyright p {
+    margin: 0;   
+}
